@@ -2,6 +2,8 @@
 
 // Factorial 
 
+int abs(int a);
+
 long getFactoiral(long value); 
 
 int main(void){
@@ -13,7 +15,8 @@ int main(void){
  scanf("%d",&var); 
  
  print("Factorial(%d) = %d", var, getFactoiral(var)); 
- 
+
+ print("abs(%d) = %d", -10, abs(-10)); 
 
 return 0; 
 }
@@ -27,4 +30,8 @@ long getFactoiral(long value){
    }
   return res; 
  }
+}
+
+int abs(int a){
+return (a > 0) ? a : -a; 
 }
