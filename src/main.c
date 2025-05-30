@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include <math.h>
 
+int add (int x, int y)
+{
+  return x + y;
+}
+int sub (int x, int y)
+{
+  return x - y;
+}
+
 int max(int a , int b); 
 double getSquareRootValue(double a); 
 double getSquaredValue(double a); 
