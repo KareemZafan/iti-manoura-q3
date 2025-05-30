@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 
-max 
-squarRoot
-GetSquaredValue
-
 int max(int a , int b); 
 double getSquareRootValue(double a); 
 double getSquaredValue(double a); 
