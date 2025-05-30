@@ -10,8 +10,9 @@ void print(char *str);
 
 int main(void){
 
- printf("Hello World!"); 
  
+ printf("Hello ITI Mansoura!"); 
+
  printf("Enter a number to get its factorial: "); 
  long var; 
  scanf("%d",&var); 
