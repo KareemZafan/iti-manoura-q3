@@ -6,6 +6,8 @@ int abs(int a);
 
 long getFactoiral(long value); 
 
+void print(char *str); 
+
 int main(void){
 
  printf("Hello World!"); 
@@ -34,4 +36,10 @@ long getFactoiral(long value){
 
 int abs(int a){
 return (a > 0) ? a : -a; 
+}
+
+
+void print(char *str){
+  printf("%s",*str); 
+
 }
