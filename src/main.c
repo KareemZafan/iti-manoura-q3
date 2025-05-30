@@ -1,6 +1,18 @@
 #include <stdio.h>
+#include <math.h>
 
-// Factorial 
+int add (int x, int y)
+{
+  return x + y;
+}
+int sub (int x, int y)
+{
+  return x - y;
+}
+
+int max(int a , int b); 
+double getSquareRootValue(double a); 
+double getSquaredValue(double a); 
 
 int abs(int a);
 
@@ -43,4 +55,16 @@ return (a > 0) ? a : -a;
 void print(char *str){
   printf("%s",*str); 
 
+}
+
+
+int max(int a , int b){
+ return a > b ? a : b; 
+}
+double getSquareRootValue(double a)
+{
+   return sqrt(a); 
+}
+double getSquaredValue(double a){
+   return a * a; 
 }
